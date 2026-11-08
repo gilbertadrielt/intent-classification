@@ -1,4 +1,31 @@
+# Downloaded datasets and embeddings (MASSIVE, GloVe)
 data/
-.ipynb_checkpoints/
-runs/
+
+# Environment
 .venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+executed/
+
+# Training outputs
+runs/
+checkpoints/
+figures/
+*.pt
+*.pth
+
+# Result files written by the notebooks
+results_*.json
+*_history.csv
+*_sweep.csv
+*_ablations.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Assignment brief
+Group Assignment Instruction.pdf
